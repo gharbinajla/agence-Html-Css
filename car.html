@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence des voitures</title>
+    <link rel="stylesheet" href="car.css">
+    
+</head>
+<body>
+    <header>
+
+    
+    <nav>
+        <img id="logo" src="carimg/logocar.png" alt="logo">
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="texto">
+        <div class="bouton">
+            <a class="vente" href="#vente">Location Etranger</a>
+            <a  class="louer" href="#louer">Location Local</a>
+        </div>
+        <table>
+            <th>
+                <td>Type <select name="type" id="type">
+                    <option value="Sport" >Sport</option>
+                    <option value="Commercial">Commercial</option>
+                    <option value="other">Other</option>
+                </select></td>
+                <td>Prix <select name="prix" id="prix">
+                    <option value="prix">Prix</option>
+                    <option value="prix1">50000$-100000$</option>
+                    <option value="prix2">150000$-250000$</option>
+                    <option value="prix3">300000$-500000$</option>
+                </select></td>
+                <td>Référence <label for="number"></label>
+                <input type="text"> </td>
+                <td> Villes <select name="villes" id="villes">
+                    <option value="Tunisie" >Tunisie</option>
+                    <option value="Canada">Canada</option>
+                    <option value="USA">USA</option>
+                </select> </td>
+                
+            </th>
+        </table>
+    </div>
+</header>
+
+<div>
+    <h2 id="vente">Offres de Location Etranger</h2>
+</div>
+<section class="image">
+    <div>
+        <img src="carimg/car.jpeg" alt="voiture">
+        <p>Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page,</p>
+        <p>Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page,</p>
+    </div>
+    <div>
+        <img src="carimg/car1.jpeg" alt="voiture1" height="200px"> 
+        <p>Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page,</p>
+        <p>Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page,</p>
+    </div>
+    <div>
+        <img src="carimg/car2.jpeg" alt="voiture2">
+        <p>Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page,</p>
+        <p>Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page,</p>
+    </div>
+</section>
+        
+<section id="louer" class="page2">
+    <h2>Location Local</h2>
+    <table>
+        <th>
+            <td>Type <select name="type" id="type">
+                <option value="Sport" >Sport</option>
+                <option value="Commercial">Commercial</option>
+                <option value="other">Other</option>
+            </select></td>
+            <td>Prix <select name="prix" id="prix">
+                <option value="prix">Prix</option>
+                <option value="prix1">50000$-100000$</option>
+                <option value="prix2">150000$-250000$</option>
+                <option value="prix3">300000$-500000$</option>
+            </select></td>
+            <td>Référence <label for="number"></label>
+            <input type="text"> </td>
+            <td> Villes <select name="villes" id="villes">
+                <option value="Tunisie" >Tunisie</option>
+                <option value="Canada">Canada</option>
+                <option value="USA">USA</option>
+            </select> </td>
+            
+        </th>
+    </table>
+    <div class="form">
+          <form action="">
+               <label for="date initial">date initial</label>
+               <input type="date">
+               <label for="date">date final</label>
+               <input type="date">
+          </form>
+    </div>
+
+    <div>
+        <button>Valider</button>
+    </div>
+
+
+</section>
+
+<section >
+    <hr>
+    <form class="contact">
+        <div>
+           <div><br>
+           <label for="nom">Nom</label>
+           <input type="text" name="" id="">
+           </div><br>
+           <div>
+           <label for="prénom">Prénom</label>
+           <input type="text" name="prénom">
+           </div><br>
+           <div>
+           <label for="cin">CIN</label>
+           <input type="text" name="text">
+           </div><br>
+           <div>
+           <label for="email">Adress e-mail</label>
+           <input type="email" name="email" id="email" name="email" pattern="@email" placeholder="@gmail">
+           </div><br>
+           <div>
+           <label for="tel">Tél</label>
+           <input type="number" name="tel">
+           </div><br><br>
+           
+        
+        </div>
+    </form>
+ 
+          <footer>
+              <div class="adress">
+                  <p >Adress:Tunis, Cité tahrir Elkahina <br> Tunis 6100 </p>
+              </div>
+               <div > 
+                  <a href=""><img class="img1" src="icon/email.svg" alt="mail"></a>
+                  <a href=""><img class="img2" src="icon/twitter.svg" alt="tweeter"></a>
+                  <a href=""><img class="img3" src="icon/linkedin.svg" alt="linkedin"></a>
+                  <a id="contact" href=""><img class="img4" src="icon/github.svg" alt="github"></a>
+               </div>
+         </footer>     
+</section>
+</body>
+</html>
